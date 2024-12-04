@@ -15,3 +15,13 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+.bg-body-tertiary {
+    --bs-tertiary-bg-rgb: 238, 238, 238;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.login-bg-body-tertiary {
+    background-color: #fff !important;
+}
